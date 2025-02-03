@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply as a Freelancer</title>
+    <link rel="stylesheet" href="./Css/freelancer_page.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Apply as a Freelancer</h2>
+        <form>
+            <div class="inputs">
+            <label for="freelancer-name" class="fulname">Full Name:</label>
+            <input type="text" id="freelancer-name" class="fulname-input" placeholder="Enter your full name" required>
+
+            <label for="freelancer-email" class="email">Email:</label>
+            <input type="email" id="freelancer-email" class="email-input" placeholder="Enter your email" required>
+        </div>
+
+        <div class="inputs">
+            <label for="skills" class="skills">Skills:</label>
+            <input type="text" id="skills" class="skills-input" placeholder="Your primary skills" required>
+
+            <label for="experience" class="years">Years of Experience:</label>
+            <input type="number" id="experience" class="years-input" placeholder="How many years of experience?" required>
+        </div>
+
+        <div class="inputs">
+            <label for="portfolio" class="skills">Portfolio(URL):</label>
+            <input type="url" id="portfolio" class="portfolio-input" placeholder="Link to your portfolio" required>
+
+            <label for="expected-rate" class="years">Expected Hourly Rate ($)</label>
+            <input type="number" id="expected-rate" class="hourly-rate-input" placeholder="Your hourly rate" required>
+        </div>
+
+            <label for="freelancer-message">Tell Us About Yourself</label>
+            <textarea id="freelancer-message" placeholder="A brief introduction about your work" required></textarea>
+
+        <div class="btn">
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

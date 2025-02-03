@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join as a Client- Freelance App</title>
+    <link rel="stylesheet" href="./Css/clients_page.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Join as a Client</h2>
+      <form>
+        <div class="inputs">
+          <div style="display: flex">
+            <label for="client-name" class="ful-name">Full Name:</label>
+          </div>
+          <input
+            type="text"
+            id="client-name"
+            class="ful-name-input"
+            placeholder="Enter your full name"
+            required
+          />
+
+          <label for="client-email" class="email">Email Address:</label>
+          <input
+            type="email"
+            id="client-email"
+            class="email-input"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="company" class="company">Company Name:</label>
+          <input
+            type="text"
+            id="company"
+            class="company-input"
+            placeholder="Your company name"
+            required
+          />
+
+          <label for="service" class="service">Service Needed:</label>
+          <select id="service" class="service-input" required>
+            <option value="">Select a service</option>
+            <option value="web_dev">Web Development</option>
+            <option value="graphic_design">Graphic Design</option>
+            <option value="marketing">Marketing</option>
+            <option value="consulting">Consulting</option>
+          </select>
+        </div>
+
+        <label for="budget">Budget ($)</label>
+        <input
+          type="number"
+          id="budget"
+          placeholder="Estimated budget"
+          required
+        />
+
+        <label for="message">Project Description</label>
+        <textarea
+          id="message"
+          placeholder="Briefly describe your project"
+          required
+        ></textarea>
+
+        <div class="btn">
+          <button type="submit" class="submit-btn" id="submit_btn">
+            Submit Application
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

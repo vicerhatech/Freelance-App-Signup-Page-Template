@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelance Website</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo">Freelance App</h2>
+    </header>
+
+    <div class="mainbody">
+      <h1 class="welcome-text">Join as a client or freelancer</h1>
+
+      <div class="inputss">
+        <div class="radio-box" id="client-box">
+            <div class="icons">
+              <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="input-circle">
+                <input type="radio" name="role" id="client" value="client" />
+                <span class="custom-radio" onclick="document.getElementById('client').click()"></span>
+            </div>
+         <h3 class="subinput-client">
+            I'm a client, hiring for a
+            project
+         </h3>
+        </div>
+        <div class="radio-box" id="freelancer-box">
+            <div class="icons">
+                <i class="fa-regular fa-user"></i>
+            </div>
+
+            <div class="input-circle">
+                <input type="radio" name="role" id="freelancer" value="freelancer" />
+                <span class="custom-radio" onclick="document.getElementById('freelancer').click()"></span>
+            </div>
+         <h3 class="subinput-freelance">
+            I'm a freelancer, looking for a work
+         </h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <button id="apply-button">Create Account</button>
+      <p>Already have an account? <a href="./login-page.html" >Log In</a></p>
+    </div>
+
+
+    <script src="Javascript/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+
+  </body>
+</html>
+ 
